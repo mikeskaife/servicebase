@@ -4,11 +4,11 @@
           "http://checkstyle.sourceforge.net/dtds/configuration_1_3.dtd">
 
 <!--
-    Checkstyle configuration that checks the Google coding conventions from Google Java Style
-    that can be found at https://google.github.io/styleguide/javaguide.html.
+    Checkstyle configuration that checks the JLR coding conventions from our coding standards
+    that can be found at <Confluence URL>.
     Checkstyle is very configurable - see http://checkstyle.sf.net
     To completely disable a check, just comment it out or delete it from the file.
-    Authors: Max Vetrenko, Ruslan Diachenko, Roman Ivanov.
+    Authors: Mike Skaife (credit Google: Max Vetrenko, Ruslan Diachenko, Roman Ivanov).
  -->
 
 <module name = "Checker">
@@ -17,8 +17,7 @@
     <property name="severity" value="warning"/>
 
     <property name="fileExtensions" value="java, properties, xml"/>
-    <!-- Checks for whitespace                               -->
-    <!-- See http://checkstyle.sf.net/config_whitespace.html -->
+    
     <module name="FileTabCharacter">
         <property name="eachLine" value="true"/>
     </module>
@@ -88,13 +87,11 @@
             <property name="option" value="EOL"/>
         </module>
         <module name="SeparatorWrap">
-            <!-- ELLIPSIS is EOL until https://github.com/google/styleguide/issues/258 -->
             <property name="id" value="SeparatorWrapEllipsis"/>
             <property name="tokens" value="ELLIPSIS"/>
             <property name="option" value="EOL"/>
         </module>
         <module name="SeparatorWrap">
-            <!-- ARRAY_DECLARATOR is EOL until https://github.com/google/styleguide/issues/259 -->
             <property name="id" value="SeparatorWrapArrayDeclarator"/>
             <property name="tokens" value="ARRAY_DECLARATOR"/>
             <property name="option" value="EOL"/>
