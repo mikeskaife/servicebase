@@ -1,0 +1,9 @@
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/controller/vehicle/VehicleController.java
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/ServiceBaseApplication.java
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/repository/vehicle/VehicleRepository.java
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/controller/vehicle/VehicleControllerAdvice.java
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/domain/Vehicle.java
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/repository/vehicle/VehicleNotFoundException.java
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/controller/vehicle/VehicleResource.java
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/config/Constants.java
+/Users/mikeskaife/Documents/src/hateoasbase/src/main/java/com/jlr/ddc/servicebase/config/SwaggerConfig.java
