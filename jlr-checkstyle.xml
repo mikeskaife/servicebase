@@ -5,7 +5,7 @@
 
 <!--
     Checkstyle configuration that checks the JLR coding conventions from our coding standards
-    that can be found at <Confluence URL>.
+    that can be found at https://confluence.devops.jlr-apps.com/display/MAD/Java+Standards.
     Checkstyle is very configurable - see http://checkstyle.sf.net
     To completely disable a check, just comment it out or delete it from the file.
     Authors: Mike Skaife (credit Google: Max Vetrenko, Ruslan Diachenko, Roman Ivanov).
